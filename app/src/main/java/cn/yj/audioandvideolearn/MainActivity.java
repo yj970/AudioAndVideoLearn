@@ -7,6 +7,7 @@ import android.view.View;
 
 import cn.yj.audioandvideolearn.learn1.ViewsActivity;
 import cn.yj.audioandvideolearn.learn2.AudioRecorderActivity;
+import cn.yj.audioandvideolearn.learn3.AudioTrackActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,5 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void click2(View view) {
         startActivity(new Intent(this, AudioRecorderActivity.class));
+    }
+
+    public void click3(View view) {
+        startActivity(new Intent(this, AudioTrackActivity.class));
     }
 }

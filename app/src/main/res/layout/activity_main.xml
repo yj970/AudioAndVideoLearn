@@ -20,5 +20,11 @@
         android:text="使用 AudioRecord 采集音频PCM并保存到文件"
         android:id="@+id/btn_2"
         android:onClick="click2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="使用 AudioTrack 播放PCM音频"
+        android:id="@+id/btn_3"
+        android:onClick="click3"/>
 
 </LinearLayout>
